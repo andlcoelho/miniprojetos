@@ -24,3 +24,9 @@ if pergunta.lower() == "Central de Processamento de Dados":
     print("Acertou, mizeravi!")
 else:
     print("Errou, ja era!")
+
+pergunta = input("Qual o significado de RAM?: ")
+if pergunta.lower() == "Random access memory":
+    print("Acertou, mizeravi!")
+else:
+    print("Errou, ja era!")

@@ -29,7 +29,7 @@ else:
     print("Errou, ja era!")
 
 pergunta = input("Qual o significado de CPD?: ")
-if pergunta.lower() == "central de Processamento de Dados":
+if pergunta.lower() == "central de processamento de Dados":
     print("Acertou, mizeravi!")
     pontuacao += 1
 else:
@@ -43,3 +43,4 @@ else:
     print("Errou, ja era!")
 
 print("Você acertou " + str(pontuacao) + " perguntas!")
+print("Seu quiz teve uma eficácia de " + str((pontuacao / 4) * 100) + "%.")
